@@ -1,0 +1,225 @@
+
+
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: absolute;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+   
+  .sidebar a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+  
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+  
+  
+  @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  }
+  
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  }
+  
+.dropdown-container {
+  background-color: white;
+  display: none;
+  padding-left: 8px;
+}
+
+.dropdown-btn:hover {
+  color: white;
+}
+
+.fa-caret-down {
+  float: right;
+  padding: 8px;
+}
+
+.mainHeading {
+  position: absolute;
+  top: 0;
+  margin-left: 13%;
+}
+
+.head-box {
+  width: 100%;
+  height: 90px;
+  border: 0px solid rgb(95, 90, 90);
+  background-color: rgb(234, 241, 234);
+}
+
+.myText {
+  width: 40%;
+  margin-left: 40%;
+  padding: 10px;
+  border: 1px solid rgb(105, 95, 95);
+  margin-top: 10px;
+}
+
+.myText li {
+  font-size: 20px;
+  justify-content: center;
+  text-align: center; 
+}
+/* css related to form */
+
+input[type=text] {
+  width: 85%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  font-weight: 300;  
+}
+
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: left;
+  width: 20%;
+  height: 50px;
+  margin-left: 40%; 
+  margin-top: 20px;
+  text-align: center;
+}
+input[type=cancel] {
+    background-color:red;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    width: 20%;
+    height: 50px;
+    margin:5px;
+    margin-top: 20px;
+  }
+/*
+.container1 {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 15px;
+  width: 65%;
+  margin-left: 25%;
+  margin-right: 25%; 
+  margin-top: 40px;
+  border: 1px solid rgb(134, 127, 127);
+}*/
+.container1 {
+  padding: 15px;
+  width: 100%;
+  margin-left: 25%;
+  margin-right: 10%;
+  margin-top: 30px;
+  width : 700px;
+  border: 1px solid rgb(134, 127, 127);
+  
+}
+
+
+.col-25 {
+  float: left;
+  width: 30%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: right;
+  width: 70%;
+  margin-top: 6px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+.container2 {
+    padding: 15px;
+    width: 100%;
+    margin-left: 15%;
+    margin-right: 10%;
+    margin-top: 30px;
+    width : 1200px;
+    border: 1px solid rgb(134, 127, 127);
+    
+  }
+  .container3 {
+    padding: 15px;
+    width: 100%;
+    margin-left: 15%;
+    margin-right: 10%;
+    margin-top: 30px;
+    width : 1200px;
+    border: 1px solid rgb(134, 127, 127);
+    
+  }
+
+#aspDistrict {
+    float: left;
+} 
+/* date time picker
+*/
+.container4 {
+  margin-top: 40px;
+}
+
+.btn-primary4 {
+  width: 100%;
+}
+.logo{
+margin: 6px 10px 10px 10px
+}
